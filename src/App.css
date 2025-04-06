@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: aliceblue;
+  color: black;
+}
+
+body 
+{
+  background-color: aliceblue;
+}
+.cod 
+{
+  text-align: center;
+  color: black;
+}
+
+.card {
+  width: 18rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  background-color: #fff;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.button-group {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  padding: 8px 12px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+  background-color: transparent;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-outline-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+  background-color: transparent;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.m-0 {
+  margin: 0;
+}
